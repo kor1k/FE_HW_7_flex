@@ -16,43 +16,94 @@
     background-size: cover;
 }
 
-.nav-top {
+
+
+.milan-logo {
+    display: flex;
+    flex-direction: row;
     padding-top: 50px;
+    /*padding-right: 15px;*/
 }
 
-.logo-milan {
-    float: left;
+.number-email {
+    color: white;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.nav-text-near-logo {
-    /*padding-left: 20px;*/
-    /*display: flex;*/
-    /*justify-content: flex-start;*/
-    font-family: Verdana, sans-serif;
-    color:  #ffffff;
+.logo {
+    margin-right: 15px;
+}
+
+.milan {
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff;
     font-size: 29px;
     font-weight: 700;
     line-height: 21px;
     text-align: left;
+    /*padding-bottom: 10px;*/
 }
 
-span {
-    font-family: Verdana, sans-serif;
-    color:  #ffffff;
+.holidays {
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     text-align: left;
 }
 
-.text-holidays {
-    font-family: Verdana, sans-serif;
-    color:  #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
+.number-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
+.email {
+    padding-bottom: 5px;
+}
+
+
+/*.nav-top {*/
+    /*padding-top: 50px;*/
+/*}*/
+
+/*.logo-milan {*/
+    /*float: left;*/
+/*}*/
+
+/*.nav-text-near-logo {*/
+    /*!*padding-left: 20px;*!*/
+    /*!*display: flex;*!*/
+    /*!*justify-content: flex-start;*!*/
+    /*font-family: Verdana, sans-serif;*/
+    /*color:  #ffffff;*/
+    /*font-size: 29px;*/
+    /*font-weight: 700;*/
+    /*line-height: 21px;*/
+    /*text-align: left;*/
+/*}*/
+
+/*span {*/
+    /*font-family: Verdana, sans-serif;*/
+    /*color:  #ffffff;*/
+    /*font-size: 18px;*/
+    /*font-weight: 700;*/
+    /*line-height: 21px;*/
+    /*text-align: left;*/
+/*}*/
+
+/*.text-holidays {*/
+    /*font-family: Verdana, sans-serif;*/
+    /*color:  #ffffff;*/
+    /*font-size: 18px;*/
+    /*font-weight: 700;*/
+    /*line-height: 21px;*/
+    /*text-align: left;*/
+/*}*/
 /**/
 /*.text {*/
     /*padding-left: 20px;*/
